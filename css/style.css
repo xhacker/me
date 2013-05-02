@@ -74,29 +74,29 @@ td { vertical-align: top; }
    Author: Xhacker Liu
    ========================================================================== */
 body {
-  width: 640px;
+  width: 960px;
   margin: auto;
-  padding: 60px 0;
+  padding: 90px 0;
   font-family: "Source Sans Pro", "Hiragino Sans GB", sans-serif;
 }
 
 h1 {
   font-weight: 200;
   margin-top: 0;
-  font-size: 70px;
+  font-size: 105px;
 }
 
 h2 {
-  margin: 24px 0 12px 0;
+  margin: 36px 0 18px 0;
   font-weight: 200;
-  font-size: 26px;
+  font-size: 39px;
   text-transform: uppercase;
 }
 
 p {
-  margin: 5px 36px;
+  margin: 9px 20px 9px 54px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 27px;
 }
 
 a {
@@ -133,7 +133,7 @@ a {
 /* =============================================================================
    Print Styles
    ========================================================================== */
- 
+
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
   a, a:visited { text-decoration: underline; }
