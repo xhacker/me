@@ -1,0 +1,102 @@
+html {
+  background-color: #efefef;
+  padding: 40px 10px 10px 10px;
+}
+body {
+  width: 720px;
+  margin: auto;
+  font-family: "Avenir Next", "Segoe UI", "Gill Sans", Ubuntu, sans-serif;
+}
+#content {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px 20px 30px 20px;
+}
+a {
+  text-decoration: none;
+  color: #1c7fdb;
+}
+a:hover {
+  color: #0c6fcb;
+}
+.support {
+  margin: 0;
+  color: #999;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+}
+h1 .main {
+  font-weight: 500;
+  color: #222;
+  font-size: 44px;
+  margin: 20px auto 5px auto;
+}
+h1 .sub {
+  font-weight: normal;
+  color: #888;
+  font-size: 20px;
+  margin: 5px auto 5px auto;
+}
+h2 {
+  font-family: "Myriad Pro", "Segoe UI", AvenirNext-Medium, "Gill Sans", Ubuntu, sans-serif;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #aaa;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+#content {
+  box-shadow: 2px 2px 0 #ddd;
+}
+
+.app {
+  text-align: center;
+  width: 300px;
+  float: left;
+}
+.description {
+  color: #444;
+  font-size: 18px;
+  width: 360px;
+  float: left;
+}
+.app .icon {
+  height: 216px;
+  border-radius: 34px; /* height / 6.4 */
+}
+
+.footer {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+  font-weight: 500;
+}
+
+.hero {
+  font-family: "Hiragino Mincho ProN", "Kochi Mincho", "MS Mincho", serif;
+  font-size: 220px;
+  line-height: 220px;
+  height: 160px;
+  overflow: hidden;
+  margin: -20px auto -23px 0;
+  text-shadow: -2px -2px 0 #dddddd;
+  color: #eee;
+  font-weight: bold;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
