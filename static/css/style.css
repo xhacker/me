@@ -78,6 +78,8 @@ body {
   margin: auto;
   padding: 90px;
   font-family: "Source Sans Pro", "Hiragino Sans GB", sans-serif;
+  font-weight: 300;
+  font-size: 27px;
 }
 
 h1 {
@@ -93,10 +95,17 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+p, li {
   margin: 9px 20px 9px 54px;
-  font-weight: 300;
-  font-size: 27px;
 }
 
 a {
