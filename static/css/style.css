@@ -80,18 +80,20 @@ body {
   font-family: "Source Sans Pro", "Hiragino Sans GB", sans-serif;
   font-weight: 300;
   font-size: 27px;
+  line-height: 1.37em;
 }
 
 h1 {
   font-weight: 200;
   margin-top: 0;
-  font-size: 105px;
+  font-size: 3.8em;
+  line-height: 1.1em;
 }
 
 h2 {
   margin: 36px 0 18px 0;
   font-weight: 200;
-  font-size: 39px;
+  font-size: 1.4em;
   text-transform: uppercase;
 }
 
@@ -121,8 +123,18 @@ a {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-	/* Style adjustments for viewports that meet the condition */
+@media only screen and (max-device-width: 480px) {
+	body {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  p, li {
+    margin: 9px 8px 9px 16px;
+  }
+
+  abbr[title] { border-bottom: 0; }
 }
 
 /* =============================================================================
