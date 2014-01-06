@@ -17,9 +17,10 @@
 <div role="main">
 	<h2>Who am I</h2>
 		<p>I am LIU Dongyuan 柳东原</p>
+		<p><a style="cursor: pointer;" id="robot-button" data-clicked="0">Try Again</button></a>
 	<h2>Router</h2>
 		<p>Vancouver · <abbr title="Simon Fraser University">SFU</abbr> · Hangzhou · <abbr title="Zhejiang University">ZJU</abbr> · Beijing · <abbr title="Beijing National Day School">BNDS</abbr></p>
-		<p><abbr title="Twitter, GitHub">@xhacker</abbr>, liu.dongyuan@gmail.com</p>
+		<p><a href="https://github.com/xhacker">GitHub</a>, <a href="https://twitter.com/xhacker">Twitter</a>, liu.dongyuan@gmail.com</p>
 		<p><a href="http://xhacker.shiyiquan.cn/">Xhacker’s Base</a> · <a href="http://walkendstar.tumblr.com/">Walk End Star</a> · IRIDIUM 57 · <a href="http://moonspica.blogspot.com/">Moon Spica</a> · Daisy Stream</p>
 	<h2>Portfolio</h2>
 	<ul>
@@ -35,7 +36,7 @@
 		<p>OS X, Ubuntu</p>
 		<p>Xcode, Sublime Text 3</p>
 	<h2>Backpack</h2>
-		<p><del>SE K310c</del>, <del>Palm Centro</del>, <del>Palm Trēo 650</del>, <del>Palm Pixi</del>, <del>HP Veer</del>, iPhone 4s</p>
+		<p><del>SE K310c</del>, <del>Palm Centro</del>, <del>Palm Trēo 650</del>, <del>Palm Pixi</del>, <del>HP Veer</del>, <del>iPhone 4S</del>, iPhone 5s</p>
 		<p><del>Kindle 3</del>, <del>iPod touch 4</del>, iPad 3</p>
 		<p>Panasonic GF1 + 20 mm pancake</p>
 		<p><del><abbr title="MacBook Air 13-inch">MBA 13</abbr></del>, <abbr title="MacBook Pro with Retina Display 15-inch">rMBP 15</abbr></p>
@@ -47,8 +48,22 @@
 
 <footer>
 
-<!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script>!window.jQuery && document.write('<script src="/static/js/jquery-1.10.2.min.js"><\/script>')</script>-->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script>
+$(document).ready(function() {
+	$("#robot-button").click(function() {
+		var clicked = $(this).attr("data-clicked");
+		if (clicked == 0) {
+			$(this).html("Please do not press this button again.");
+			$(this).attr("data-clicked", 1);
+		}
+		else {
+			$(this).hide();
+		}
+	});
+});
+</script>
+<script>!window.jQuery && document.write('<script src="/static/js/jquery-1.10.2.min.js"><\/script>')</script>
 
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300&text=%C4%93%E2%84%A2' rel='stylesheet' type='text/css'>
