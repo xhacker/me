@@ -127,6 +127,7 @@ ul {
 li {
   list-style: none;
   padding: 0;
+  margin: 8px 0;
 }
 
 footer {
