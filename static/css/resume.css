@@ -82,6 +82,10 @@ body {
   line-height: 1.37em;
 }
 
+a {
+  border-bottom: 1px solid #ccc;
+}
+
 h1 {
   font-weight: normal;
   margin-top: 0;
@@ -100,10 +104,6 @@ h2 {
 h3 {
   font-size: 1em;
   margin-bottom: 0.5em;
-}
-
-h3 a {
-  border-bottom: 1px solid #ddd;
 }
 
 p {
