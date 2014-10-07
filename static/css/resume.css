@@ -86,12 +86,18 @@ a {
   border-bottom: 1px solid #ccc;
 }
 
-h1 {
+header h1 {
   font-weight: normal;
   margin-top: 0;
   font-size: 1.6em;
   line-height: 1.1em;
   margin-bottom: 32px;
+  float: left;
+}
+
+header p {
+  float: right;
+  color: #999;
 }
 
 h2 {
