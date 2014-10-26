@@ -124,8 +124,12 @@ a {
    ========================================================================== */
 
 @media only screen and (max-device-width: 480px) {
-	body {
+  html {
     width: 100%;
+  }
+
+  body {
+    width: auto;
     padding: 20px;
     font-size: 20px;
   }
