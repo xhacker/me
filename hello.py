@@ -19,5 +19,10 @@ def cryptomeria():
     return render_template('cryptomeria.html')
 
 
+@app.route('/oneclock')
+def oneclock():
+    return render_template('oneclock.html')
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')

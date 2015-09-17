@@ -1,0 +1,71 @@
+html {
+  padding: 40px 0;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #4C93DE;
+}
+a:hover {
+  color: #2D7BCC;
+}
+
+h1 {
+  font-weight: normal;
+}
+h1 .main {
+  font-family: Futura;
+  color: #575757;
+  font-size: 44px;
+  margin: 20px auto 5px auto;
+}
+h1 .sub {
+  color: #aaa;
+  width: 400px;
+  font-size: 22px;
+  margin: 20px auto 24px auto;
+}
+
+.screenshot {
+  margin: 40px auto 0 auto;
+}
+.coming {
+  color: #575757;
+  font-family: Futura;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+abbr {
+  border-bottom: 2px dashed #ddd;
+  cursor: help;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 15px;
+  color: #bbb;
+}
+footer p {
+  margin: .6em 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  html {
+    padding: 20px 0;
+  }
+  h1 .sub {
+    width: 300px;
+  }
+}
