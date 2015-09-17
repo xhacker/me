@@ -2,7 +2,7 @@ html {
   padding: 40px 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, sans-serif;
   text-align: center;
 }
 a {
@@ -26,16 +26,19 @@ h1 .sub {
   color: #aaa;
   width: 400px;
   font-size: 22px;
-  margin: 20px auto 24px auto;
+  margin: 20px auto 60px auto;
 }
 
 .screenshot {
-  margin: 40px auto 0 auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 .coming {
+  margin-top: 60px;
   color: #575757;
   font-family: Futura;
-  font-size: 22px;
+  font-size: 26px;
   text-transform: uppercase;
 }
 abbr {
@@ -44,7 +47,7 @@ abbr {
 }
 
 footer {
-  margin-top: 60px;
+  margin-top: 20px;
   font-size: 15px;
   color: #bbb;
 }
