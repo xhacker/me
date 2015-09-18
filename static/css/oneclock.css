@@ -66,9 +66,17 @@ footer p {
 
 @media only screen and (max-device-width: 480px) {
   html {
-    padding: 20px 0;
+    padding: 15px 0;
   }
   h1 .sub {
+    font-size: 19px;
     width: 300px;
+    margin-bottom: 40px;
+  }
+  .screenshot {
+    max-width: 100%;
+  }
+  .coming {
+    margin-top: 40px;
   }
 }
