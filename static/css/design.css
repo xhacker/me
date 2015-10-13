@@ -52,6 +52,7 @@ h2:first-child {
   display: block;
   margin: 30px auto;
   border-radius: 5px;
+  max-width: 100%;
 }
 
 .clearfix:after {
