@@ -1,0 +1,84 @@
+html {
+  padding: 40px 0 60px 0;
+}
+body {
+  font-family: -apple-system, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+a:hover {
+  color: #bbb;
+}
+
+h1 {
+  font-family: "Bodoni 72", Didot, sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+}
+p {
+  color: #bbb;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 20px;
+}
+
+h2 {
+  width: 800px;
+  max-width: 100%;
+  text-align: center;
+  color: #ccc;
+  border-bottom: 0.5px solid #eee;
+  margin: 80px auto 20px auto;
+  padding: 10px 0;
+  font-family: -apple-system, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5em;
+}
+h2:first-child {
+  margin-top: 60px;
+}
+
+.screenshot {
+  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.screenshot-rounded {
+  display: block;
+  margin: 30px auto;
+  border-radius: 5px;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  html {
+    padding: 0;
+  }
+  .screenshot {
+    margin: 20px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (device-width: 320px) {
+  .screenshot {
+    border-left: 0;
+    border-right: 0;
+  }
+}

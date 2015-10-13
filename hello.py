@@ -14,6 +14,11 @@ def resume():
     return render_template('resume.html')
 
 
+@app.route('/design')
+def design():
+    return render_template('design.html')
+
+
 @app.route('/cryptomeria')
 def cryptomeria():
     return render_template('cryptomeria.html')
