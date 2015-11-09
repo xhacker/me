@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import render_template
+from flask import Flask, render_template, redirect
 
 app = Flask(__name__)
 
@@ -26,7 +25,7 @@ def cryptomeria():
 
 @app.route('/oneclock')
 def oneclock():
-    return render_template('oneclock.html')
+    return redirect('http://ela.build/oneclock')
 
 
 if __name__ == '__main__':
