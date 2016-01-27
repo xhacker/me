@@ -73,11 +73,21 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author: Xhacker Liu
    ========================================================================== */
+@font-face {
+  font-family: Dongyuan;
+  src: url(/static/Dongyuan-Medium.woff);
+  font-weight: medium;
+}
+.Dongyuan {
+  font-family: Dongyuan, STKaiti, sans-serif;
+  font-size: 1.1em;
+}
+
 body {
   width: 960px;
   margin: auto;
   padding: 90px;
-  font-family: "Source Sans Pro", "Helvetica Neue", "STKaiti", "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", STKaiti, "Hiragino Sans GB", "Source Han Sans CN", sans-serif;
   font-weight: 300;
   font-size: 27px;
   line-height: 1.37em;

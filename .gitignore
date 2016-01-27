@@ -39,3 +39,4 @@ include
 lib
 local
 tmp
+venv
