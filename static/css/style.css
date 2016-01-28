@@ -20,7 +20,7 @@ a:hover { color: orange; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
-abbr[title] { border-bottom: 1px dotted; }
+abbr[title] { border-bottom: 1px dotted; text-decoration: none; }
 b, strong { font-weight: bold; }
 blockquote { margin: 1em 40px; }
 dfn { font-style: italic; }
