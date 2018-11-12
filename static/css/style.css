@@ -114,10 +114,11 @@ ul {
 li {
   list-style: none;
   padding: 0;
+  margin: 9px 20px 9px 54px;
 }
 
-p, li {
-  margin: 9px 20px 9px 54px;
+p {
+  margin: 12px 20px 12px 54px;
 }
 
 a {
@@ -144,8 +145,16 @@ a {
     font-size: 20px;
   }
 
-  p, li {
+  h1 {
+    font-size: 3.2em;
+  }
+
+  li {
     margin: 9px 8px 9px 16px;
+  }
+
+  p {
+    margin: 12px 8px 12px 16px;
   }
 
   abbr[title] { border-bottom: 0; }
