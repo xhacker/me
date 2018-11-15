@@ -160,6 +160,22 @@ a {
   abbr[title] { border-bottom: 0; }
 }
 
+@media (prefers-color-scheme:dark) {
+  a { color: rgb(255, 200, 0); }
+  a:visited { color: rgb(255, 200, 0); }
+  a:hover { color: rgb(255, 233, 0); }
+  a:focus { outline: thin dotted; }
+
+  html {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .wtf {
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
+
 /* =============================================================================
    Non-Semantic Helper Classes
    ========================================================================== */
