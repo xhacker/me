@@ -1,7 +1,7 @@
-FROM alpine:3.3
+FROM alpine:3.13
 MAINTAINER me-docker@ela.build
 
-RUN apk --no-cache add python py-pip && pip install --upgrade pip
+RUN apk --no-cache add python3 py3-pip && pip install --upgrade pip
 
 COPY . /app
 WORKDIR /app
