@@ -75,7 +75,7 @@ td { vertical-align: top; }
    ========================================================================== */
 @font-face {
   font-family: Dongyuan;
-  src: url(/static/Dongyuan-Medium.woff);
+  src: url(../Dongyuan-Medium.woff);
   font-weight: medium;
 }
 .Dongyuan {
